@@ -1,0 +1,11 @@
+.image{
+    background-color: seagreen;
+    height: 500px;
+    display: flex;
+    width: 1903px;
+   
+    border-bottom: 20px solid rgb(20, 63, 80);
+    color: seagreen;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+  }

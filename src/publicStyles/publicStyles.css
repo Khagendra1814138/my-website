@@ -1,0 +1,24 @@
+.headerImage{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    width: 1903px;
+    border-bottom: 15px solid rgb(20, 63, 80);
+    color: seagreen;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+}
+
+.mainHeading{
+    background-color: lightblue;
+    height: 100px;
+    width: 1302px;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    color: rgb(40, 63, 80);
+    font-family: Franklin Gothic Heavy;
+    font-size: 50px;
+  }

@@ -1,0 +1,36 @@
+.RRQmainFrame{
+    background-color: none;
+    height: auto;
+    width: auto;
+  }
+
+  .RRQbody{
+    height: 936px;
+    width: 1302px;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #rrQandAheading{
+    background-color: wheat;
+    height: 100px;
+    width: 1302px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    color: rgb(40, 63, 80);
+    font-family: Franklin Gothic Heavy;
+    font-size: 50px;
+  }
+  #rrQuestionsBoxMainFrame{
+    background-color: wheat;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+  }

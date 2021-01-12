@@ -1,0 +1,107 @@
+
+.chooseTopicMainFrame{
+    background-color: none;
+    height: auto;
+    width: auto;
+  }
+
+.chooseTopicBody{
+    height: 936px;
+    width: 1302px;
+    background-color: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#headingOne{
+    height: 100px;
+    width: 1302px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family: Franklin Gothic Heavy;
+    color: rgb(40, 63, 80);
+    /* border-bottom: 4px solid rgb(132,151,176); */
+}
+#btnMainBox{
+  height: 500px;
+  width: 1302px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.btn1{
+  height: 500px;
+  width: 651px;
+  border: 15px solid rgb(132,151,176);
+  border-right: 1px solid  rgb(132,151,176);
+}
+
+.btn1:hover{
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn2{
+  height: 500px;
+  width: 651px;
+  background-color: whitesmoke;
+  border: 15px solid rgb(132,151,176);
+  border-left: 1px solid  rgb(132,151,176);
+}
+.btn2:hover{
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+#t1{
+  height: 50px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial Black;
+  font-size: 50px;
+  color: white;
+
+}
+#t2{
+  height: 30px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial Black;
+  font-size: 30px;
+  color: white;
+}
+
+.back{
+    margin: auto;
+    margin: auto;
+  }
+
+.backBtn{
+    height: 130px;
+    width: 450px;
+    background-color: rgb(169,209,142);
+    border: 15px solid rgb(112,173,71);
+    color: rgb(84,130,53);
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+ 
+  .backBtn:hover{
+    background-color: rgb(226,240,217);
+    border: 15px solid rgb(197,224,180);
+    color: rgb(169,209,142);
+    transition: all 0.5s ease-in-out;
+  }

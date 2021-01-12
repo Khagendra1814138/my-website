@@ -1,0 +1,141 @@
+.homeMainFrame{
+    background-color: white;
+    height: auto;
+    width: auto;
+  }
+.homeMainBody{
+  height: auto;
+  width: 1302px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#threatRow{
+  height: 480px;
+  width: 1302px;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Up & Down*/
+  justify-content: center; /* left & right*/
+  margin: auto;
+  margin-top: 40px;
+}
+.imgMainBox{
+  background-color: none;
+  color: teal;
+  height: 520px;
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.imgBox1{
+  background-color:none;
+  color: teal;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+.threatTitle{
+  background-color:transparent;
+  color: teal;
+  height: 32px;
+  width: 300px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.threatBrief{
+  background-color: azure;
+  color: teal;
+  height: 122px;
+  width: 286px;
+  float: left;
+  text-align: center;
+  padding: 6px;
+  border-radius: 20px;
+  border: 2px solid aliceblue;
+}
+
+.heading2{
+  background-color: lightblue;
+  height: 100px;
+  width: 1302px;
+  display: inline-flex;
+  margin-top: 60px;
+  align-items: center; /* Up & Down*/
+  justify-content: center; /* left & right*/
+  color: rgb(40, 63, 80);
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+}
+
+
+#solutionRow{
+  background-color: none;
+  height: 380px;
+  width: 1302px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageBox2{
+  height: 300px;
+  width: 500px;
+  align-items: center; /* Up & Down*/
+  justify-content: center; /* left & right*/
+  border: 15px solid teal;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+}
+.imageBox2:hover{
+  /* transform: scale(1.25);
+  overflow: hidden; */
+  opacity: 0.5;
+}
+
+.p1Box{
+  background-color: white;
+  height: 330px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center; /* Up & Down*/
+  justify-content: center; /* left & right*/
+}
+
+.h2{
+  width: auto;
+  height: 45px;
+  background-color: none;
+  font-size: 30px;
+  font-family: Franklin Gothic Heavy;
+  color: rgb(40, 63, 80);
+  text-decoration: overline;
+  display: flex;
+  text-align: center;
+}
+
+.paragraph1{
+  height: 190px;
+  width: 596px;
+  background-color: azure;;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: -10px;
+  text-align: center;
+  border: 2px solid aliceblue;
+  display: flex;
+  align-items: center; /* Up & Down*/
+  justify-content: center; /* left & right*/
+}

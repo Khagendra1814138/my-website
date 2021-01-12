@@ -1,0 +1,51 @@
+.Ayy {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+    width: 500vh;
+    background-color: black;
+  }
+  
+  .rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px red;
+  }
+
+  #image1{
+    height: 540px;
+    width: 1120px;
+    background-color: rosybrown;
+    border: 15px solid darkslategray;
+    margin: auto;
+    margin-top: 0px;
+  }
+
+  #h1{
+    height: 50px;
+    width: 1000px;
+    background-color: none;
+    font-size: 35px;
+    display: flex;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    color: rgb(40, 63, 80);
+    margin: auto;
+    border-bottom: solid 4px gainsboro;
+  }
+  #p1{
+    height: 160px;
+    width: 800px;
+    background-color: azure;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    border-radius: 15px;
+    font-size: 18px;
+    color: rgb(40, 63, 80);
+    border: 2px solid aliceblue;
+  }

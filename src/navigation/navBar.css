@@ -1,0 +1,88 @@
+.navBarr{
+    background-color: rgb(0, 43, 54);
+    /* background-color: #1F4E79; */
+    height: 56px;
+    width: 937px;
+    display: flex;
+
+    border: 15px solid rgb(40, 63, 80);
+    border-top: 15px solid rgb(20, 63, 80);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+
+    margin: auto;
+    margin-top: -265px;
+  }
+  
+
+ /*/////////////////////////////////////////////////////*/ 
+.home{
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 30px;
+}
+  .home-active{
+    color: rgb(255, 192, 0);
+    text-decoration: none;
+  }
+    .home:hover{
+      color: lightblue;
+      text-decoration: underline teal solid;
+    }
+
+/*/////////////////////////////////////////////////////*/
+.renewable{
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 30px;
+}
+  .renewable-active{
+    color: rgb(255, 192, 0);
+    text-decoration: none;
+  }
+    .renewable:hover{
+      color: lightblue;
+      text-decoration: underline teal solid;
+    }
+
+/*/////////////////////////////////////////////////////*/
+.climateAction{
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 30px;
+}
+  .climateAction-active{
+    color: rgb(255, 192, 0);
+    text-decoration: none;
+  }
+    .climateAction:hover{
+      color: lightblue;
+      text-decoration: underline teal solid;
+    }
+
+/*/////////////////////////////////////////////////////*/
+.quiz{
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  font-size: 30px;
+}
+  .quiz-active{
+    color: rgb(255, 192, 0);
+    text-decoration: none;
+  }
+  .quiz:hover{
+    color: lightblue;
+    text-decoration: underline teal solid;
+  }
+
