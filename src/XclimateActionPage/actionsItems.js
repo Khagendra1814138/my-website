@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import Item from "./items"
+import Item from "./items";
 import "./stuff.css";
 
 import reforestation from './CAimages/reforestation.jpg';

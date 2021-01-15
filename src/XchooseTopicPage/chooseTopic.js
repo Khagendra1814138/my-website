@@ -1,5 +1,6 @@
 import React from "react";
 import './chooseTopic.css';
+import '../publicStyles/publicStyles.css';
 
 import {NavLink} from 'react-router-dom';
 
@@ -28,10 +29,12 @@ export const ChooseTopic = () => {
                         </button>
                     </NavLink>
                 </box>
-
-                <NavLink exact to="/takeQuiz" className="back">
-                    <button className ="backBtn">GO BACK</button>
-                </NavLink>
+                
+                <box className = "btnsMainBox">
+                    <NavLink exact to="/takeQuiz" className="grnBtn">
+                        <button id ="greenButton">GO BACK</button>
+                    </NavLink>
+                </box>
             </body>
         </div>
     );

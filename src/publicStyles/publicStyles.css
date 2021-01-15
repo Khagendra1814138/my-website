@@ -22,3 +22,56 @@
     font-family: Franklin Gothic Heavy;
     font-size: 50px;
   }
+
+  .btnsMainBox{
+    background-color: none;
+    height: auto;
+    width: 1302px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+  }
+
+  #greenButton{
+    height: 100px;
+    width: 420px;
+    background-color: rgb(169,209,142);
+    border: 15px solid rgb(112,173,71);
+    color: rgb(84,130,53);
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #greenButton:hover{
+    background-color: rgb(226,240,217);
+    border: 15px solid rgb(197,224,180);
+    transition: all 0.5s ease-in-out;
+  }
+
+  #greyButton{
+    height: 100px;
+    width: 420px;
+    background-color: #586E75;
+    border: 15px solid #0d3e4bd7;
+    color: rgb(40, 63, 80);
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #greyButton:hover{
+    background-color: #708f94;
+    border: 15px solid #68797e;
+    transition: all 0.5s ease-in-out;
+  }
+  #linee{
+    height: 2px;
+    width: 1302px;
+    background-color: lightslategrey;
+    margin-top: 20px;
+  }

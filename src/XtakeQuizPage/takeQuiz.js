@@ -20,7 +20,14 @@ export const Quiz = () => {
       </div>
 
       <body className = "takeQuizMainBody">
-        <div box className ="instructionBox"> instructions here</div>
+        <p1 className ="instructionBox"> 
+          <ul>
+            <li>Please enter your name in the textbox below.</li>
+            <li>Choose your topic.</li>
+            <li>Start the quiz.</li>
+            <li>Click view result to check your score and answer.</li>
+          </ul>
+        </p1>
 
         <box className ="line1"></box>
 

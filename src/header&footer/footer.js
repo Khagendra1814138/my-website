@@ -17,19 +17,19 @@ export const Footer = () => {
             </logo>
             <box id ="socialMediaLinks">
 
-              <a href="https://www.youtube.com/c/jamesqquick" id="link">
+              <a href="https://www.youtube.com" id="link">
                 <FaFacebookSquare size="3em" color="lightblue"/>
               </a>
 
-              <a href="https://www.youtube.com/c/jamesqquick" id="link">
+              <a href="https://www.youtube.com" id="link">
                 <FaTwitterSquare size="3em" color="lightblue"/>
               </a>
 
-              <a href="https://www.youtube.com/c/jamesqquick" id="link">
+              <a href="https://www.youtube.com" id="link">
                 <FaInstagramSquare size="3em" color="lightblue"/>
               </a>
               
-              <a href="https://www.youtube.com/c/jamesqquick" id="link">
+              <a href="https://www.youtube.com" id="link">
                 <FaYoutubeSquare size="3em" color="lightblue"/>
               </a>
 

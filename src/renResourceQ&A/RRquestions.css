@@ -5,7 +5,7 @@
   }
 
   .RRQbody{
-    height: 936px;
+    height: 938px;
     width: 1302px;
     background-color: whitesmoke;
     margin: auto;
@@ -29,8 +29,50 @@
   #rrQuestionsBoxMainFrame{
     background-color: wheat;
     height: 600px;
-    width: 900px;
+    width: 1100px;
     display: flex;
     margin: auto;
     border-radius: 15px;
+  }
+
+  /*----------------------------------------------------------------------------------------------*/
+  #RRquestionCount{
+    height: 40px;
+    width: 500px;
+    background-color: none;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    color: rgb(40, 63, 80);
+    font-family: Franklin Gothic Heavy;
+    font-size: 50px;
+  }
+  #RRquestionBox{
+    height: 50px;
+    width: 900px;
+    background-color: navajowhite;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    align-items: center; /* Up & Down*/
+    justify-content: center; /* left & right*/
+    color: rgb(40, 63, 80);
+    font-family: Franklin Gothic Heavy;
+    font-size: 40px;
+  }
+  
+  #RRanswer{
+      background-color: white;
+      height: 35px;
+      width: 400px; 
+      margin: auto;
+      padding: 15px;
+      border: 6px solid navajowhite;
+      font-family: Franklin Gothic Heavy;
+      font-size: 30px;
+      color: rgb(40, 63, 80);
   }

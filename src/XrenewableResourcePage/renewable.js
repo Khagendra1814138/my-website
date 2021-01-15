@@ -70,7 +70,7 @@ export const Renewable = () => {
                 </box>
             </box>
 
-            <box className ="linee"></box>
+            <box id ="linee"></box>
 
             <box id ="RErow">
                 <box id ="energyFrame">
@@ -94,7 +94,7 @@ export const Renewable = () => {
                 </box>
             </box>
 
-            <box className ="linee"></box>
+            <box id ="linee"></box>
 
             <box id ="RErow">
                 <box id ="energyFrame">

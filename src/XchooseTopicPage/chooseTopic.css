@@ -82,26 +82,3 @@
   font-size: 30px;
   color: white;
 }
-
-.back{
-    margin: auto;
-    margin: auto;
-  }
-
-.backBtn{
-    height: 130px;
-    width: 450px;
-    background-color: rgb(169,209,142);
-    border: 15px solid rgb(112,173,71);
-    color: rgb(84,130,53);
-    font-size: 40px;
-    font-weight: bold;
-    border-radius: 15px;
-  }
- 
-  .backBtn:hover{
-    background-color: rgb(226,240,217);
-    border: 15px solid rgb(197,224,180);
-    color: rgb(169,209,142);
-    transition: all 0.5s ease-in-out;
-  }
